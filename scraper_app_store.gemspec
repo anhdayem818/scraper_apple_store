@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'scraper_app_store/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "scraper_google_play"
-  spec.version       = ScraperGooglePlay::VERSION
+  spec.name          = "scraper_app_store"
+  spec.version       = ScraperAppStore::VERSION
   spec.authors       = ["Nguyen Bach"]
   spec.email         = ["trannguyenbach1992@gmail.com"]
 
@@ -32,5 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
-  spec.add_development_dependency "activesupport", "~> 4.2.5"
+
 end
